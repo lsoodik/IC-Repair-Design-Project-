@@ -2,10 +2,12 @@
 <html>
 <head lang="ru">
   <meta charset="utf-8">
-  <meta name="viewport" content="width=devise width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/fonts.css">
+  <script src="script.js" defer></script>
+  <title>Interior Design</title>
 </head>
 <body>
   <header class="header">
@@ -76,101 +78,87 @@
           </div>
       </div>
     </section>
-    <section class="completed-projects">
-      <div class="container completed-projects-container">
-        <ul class="completed-projects-list">
-          <li class="completed-projects-item">
-            <a href="#">
-              Rostov-on-Don, Admiral
-            </a>
-          </li>
-          <li class="completed-projects-item">
-            <a href="#">
-              Sochi Thieves
-            </a>
-          </li>
-          <li class="completed-projects-item">
-            <a href="#">
-              Rostov-on-Don Patriotic
-            </a>
-          </li>
-        </ul> 
-        <div class="completed-project__article-photo">
-          <div id="completed-project__article1">
+    <section class="projects">
+      <div class="container projects-container">
+        
+        <div class="projects__article-photo">
+          <div class="projects__header">
             <h2 class=" title subtitle2">
               completed projects
             </h2>
-            <p class="completed-projects__text">
+            <p class="projects__text">
               Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction market we have made happy more than 1000 families
             </p>
           </div>
-          <div id="completed-project__article2">
-            <div class="completed-project__article_mainblock">
-              <div class="completed-project__article_block">
-                <div>
-                  <h3 class="title subtitle3">
-                    City:
-                  </h3>
-                  <p class="completed-projects__text">Rostov-on-Don</p>
-                  <p class="completed-projects__text">
-                    LCD admiral
-                  </p>
+          <div class="projects__article">
+              <h2 class=" title subtitle2">
+                completed projects
+              </h2>
+              <p class="projects__text description">
+                Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction market we have made happy more than 1000 families
+              </p>
+              <div class="projects__article_mainblock">
+                <div class="projects__article_block">
+                  <div>
+                    <h3 class="title subtitle3">
+                      City:
+                    </h3>
+                    <p class="projects__text">Rostov-on-Don</p>
+                    <p class="projects__text">
+                      LCD admiral
+                    </p>
+                  </div>
+                  <div>
+                    <h3 class="title subtitle3">
+                      Repair time:
+                    </h3>
+                    <p class="projects__text">
+                      3.5 months
+                    </p>
+                  </div>
                 </div>
-                <div>
-                  <h3 class="title subtitle3">
-                    Repair time:
-                  </h3>
-                  <p class="completed-projects__text">
-                    3.5 months
-                  </p>
+                <div class="projects__article_block">
+                  <div>
+                    <h3 class="title subtitle3" >
+                      apartment area:
+                    </h3>
+                    <p class="projects__text">
+                      81m2
+                    </p>
+                  </div>
+                  <div >
+                    <h3 class="title subtitle3">
+                      Repair Cost:
+                    </h3>
+                    <p class="projects__text">
+                      Upon request
+                    </p>
+                  </div>
                 </div>
               </div>
-              <div class="completed-project__article_block">
-                <div>
-                  <h3 class="title subtitle3" >
-                    apartment area:
-                  </h3>
-                  <p class="completed-projects__text">
-                    81m2
-                  </p>
+              <div class="projects__slide-switch">
+                <div class="slide-switch__arrow left">
+                  <svg width="42" height="14" viewBox="0 0 42 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M6.63807 13.276L2.29917e-05 6.638L6.63807 -3.82298e-05L7.58563 0.94753L1.89516 6.638L7.58563 12.3285L6.63807 13.276Z" fill="white"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.947579 5.9681L41.4556 5.9681L41.4556 7.30817L0.947578 7.30816L0.947579 5.9681Z" fill="white"/>
+                  </svg>
                 </div>
-                <div >
-                  <h3 class="title subtitle3">
-                    Repair Cost:
-                  </h3>
-                  <p class="completed-projects__text">
-                    Upon request
-                  </p>
+                <div class="slide-switch__circles">
+                </div> 
+                <div class="slide-switch__arrow right">
+                  <svg width="42" height="14" viewBox="0 0 42 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M35.0451 -0.000183105L41.6831 6.63786L35.0451 13.2759L34.0975 12.3283L39.788 6.63786L34.0975 0.947384L35.0451 -0.000183105Z" fill="white"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M40.7355 7.30776L0.227539 7.30776L0.227539 5.9677L40.7355 5.9677L40.7355 7.30776Z" fill="white"/>
+                  </svg>
                 </div>
-              </div>
-            </div>
-            <div class="completed-projects__slide-switch">
-              <svg width="42" height="14" viewBox="0 0 42 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.63807 13.276L2.29917e-05 6.638L6.63807 -3.82298e-05L7.58563 0.94753L1.89516 6.638L7.58563 12.3285L6.63807 13.276Z" fill="white"/>
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.947579 5.9681L41.4556 5.9681L41.4556 7.30817L0.947578 7.30816L0.947579 5.9681Z" fill="white"/>
-                </svg>
-              <div class="slide-switch__circles">
-                <div class="slide-switch__circles_circle"><a href="#"></a> </div>
-                <div class="slide-switch__circles_circle"><a href="#"></a> </div>
-                <div class="slide-switch__circles_circle"><a href="#"></a> </div>
               </div> 
-              <svg width="42" height="14" viewBox="0 0 42 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M35.0451 -0.000183105L41.6831 6.63786L35.0451 13.2759L34.0975 12.3283L39.788 6.63786L34.0975 0.947384L35.0451 -0.000183105Z" fill="white"/>
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M40.7355 7.30776L0.227539 7.30776L0.227539 5.9677L40.7355 5.9677L40.7355 7.30776Z" fill="white"/>
-              </svg>
-            </div> 
-          </div>                                              
-          <div style="position: relative; display: flex; justify-content: end;">
-            <img style="position: relative;" src="./images/complete-projects.png" alt="Design">
-            <svg class="completed-project__photo_arrow" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="17.9999" cy="17.9999" r="18.0001" transform="rotate(-180 17.9999 17.9999)" fill="#E3B873"/>
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5657 23.478L14.0869 17.9997L19.5657 12.5215L20.3478 13.3035L15.6511 17.9997L20.3478 22.696L19.5657 23.478Z" fill="white" stroke="white" stroke-width="0.75"/>
-            </svg>
-            <svg class="completed-project__photo_arrow" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="18.0001" cy="18.0001" r="18.0001" fill="#E3B873"/>
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M16.4343 12.522L21.9131 18.0003L16.4343 23.4785L15.6522 22.6965L20.3489 18.0003L15.6522 13.304L16.4343 12.522Z" fill="white" stroke="white" stroke-width="0.75"/>
-            </svg>
-          </div>            
+          </div>
+          <div class="projects__slider">
+            <ul class="projects-list">
+            </ul>                                            
+            <div class="projects__slider_images">
+            </div>
+          </div>          
         </div>
       </div>
     </section>
@@ -2070,4 +2058,3 @@
   </footer>
 </body>
 </html>
-
